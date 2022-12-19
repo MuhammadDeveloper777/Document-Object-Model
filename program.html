@@ -1,0 +1,182 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>Calculator</title>
+ 	
+
+ </head>
+ <body>
+ 	<div id="main">
+ 		
+ 	</div>
+ <script type="text/javascript">
+ 	let h1=document.createElement("h1");
+ 	h1.innerHTML="Calculator";
+ 	main.appendChild(h1);
+
+ //Math marks
+ let math=document.createElement("subject");
+ math.innerHTML="Math: ";
+ //appendChild
+ main.appendChild(math);
+
+ //input tag
+ let input1=document.createElement("input");
+ //set Attributes type
+ input1.setAttribute("type", "text");
+ //set id
+ input1.setAttribute("id", "mark1");
+ //set value
+ input1.setAttribute("value", "");
+ //appendChild
+ main.appendChild(input1);
+ //=================================================
+
+ //br(next line) tag
+ let br=document.createElement("br");
+ main.appendChild(br);
+
+ //English
+ let engl=document.createElement("subject");
+ engl.innerHTML="English: ";
+ //appendChild
+ main.appendChild(engl);
+
+ //input tag
+ let input2=document.createElement("input");
+ //setattributes type
+ input2.setAttribute("type", "text");
+ // setAttributes id
+ input2.setAttribute("id", "mark2");
+ // setAttributes 
+ input2.setAttribute("value", "");
+ main.appendChild(input2);
+
+ //=================================================
+
+ //br(next line) tag
+ let br1=document.createElement("br");
+ main.appendChild(br1);
+
+ //Urdu
+ let ur=document.createElement("subject");
+ ur.innerHTML="Urdu: ";
+ //appendChild
+ main.appendChild(ur);
+
+ //input tag
+ let input3=document.createElement("input");
+ //setattributes type
+ input3.setAttribute("type", "text");
+ // setAttributes id
+ input3.setAttribute("id", "mark3");
+ // setAttributes 
+ input3.setAttribute("value", "");
+ main.appendChild(input3);
+
+ //=================================================
+
+ //br(next line) tag
+ let br2=document.createElement("br");
+ main.appendChild(br2);
+
+ //Arabic
+ let arab=document.createElement("subject");
+ arab.innerHTML="Arabic: ";
+ //appendChild
+ main.appendChild(arab);
+
+ //input tag
+ let input4=document.createElement("input");
+ //setattributes type
+ input4.setAttribute("type", "text");
+ // setAttributes id
+ input4.setAttribute("id", "mark4");
+ // setAttributes 
+ input4.setAttribute("value", "");
+ main.appendChild(input4);
+
+ //=================================================
+
+ //br(next line) tag
+ let br3=document.createElement("br");
+ main.appendChild(br3);
+ //br(next line) tag
+ 
+
+ //Computer
+ let comp=document.createElement("subject");
+ comp.innerHTML="Computer: ";
+ comp.style.margin_top="2vh";
+ //appendChild
+ main.appendChild(comp);
+
+ //input tag
+ let input5=document.createElement("input");
+ //setattributes type
+ input5.setAttribute("type", "text");
+ // setAttributes id
+ input5.setAttribute("id", "mark5");
+ // setAttributes 
+ input5.setAttribute("value", "");
+ main.appendChild(input5);
+
+ //=================================================
+
+ //br(next line) tag
+ let br5=document.createElement("br");
+ main.appendChild(br5);
+ //br(next line) tag
+
+ // btn add
+ let btnPlus=document.createElement("button");
+ // btnplus attributes id
+ btnPlus.setAttribute("id", "btnadd");
+ btnPlus.innerHTML="Marks +";
+
+ 
+
+ btnPlus.addEventListener('click',
+	function()
+ 			{
+ 				mark6.value=Number(mark1.value)+Number(mark2.value)+Number(mark3.value)+Number(mark4.value)+
+ 				Number(mark5.value);
+ 			}
+
+ 	);
+
+
+ main.appendChild(btnPlus);
+
+ //=================================================
+
+ //br(next line) tag
+ let br4=document.createElement("br");
+ main.appendChild(br4);
+ //br(next line) tag
+ 
+
+ //Computer
+ let res=document.createElement("subject");
+ res.innerHTML="Result: ";
+ //appendChild
+ main.appendChild(res);
+
+ //input tag
+ let input6=document.createElement("input");
+ //setattributes type
+ input6.setAttribute("type", "text");
+ // setAttributes id
+ input6.setAttribute("id", "mark6");
+ // setAttributes 
+ input6.setAttribute("value", "");
+ main.appendChild(input6);
+
+
+
+
+ </script>
+ </body>
+ </html>
